@@ -1,6 +1,6 @@
 {
     "name": "react-firehooks",
-    "version": "2.3.0",
+    "version": "3.0.0-next.6",
     "description": "Lightweight dependency-free collection of React hooks for Firebase",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
@@ -75,13 +75,14 @@
         "build:esm": "rimraf lib && tsc",
         "build:modules": "node ./scripts/create-modules.js",
         "test": "vitest",
+        "typecheck": "vitest typecheck",
         "semantic-release": "semantic-release",
         "typedoc": "typedoc",
         "prepare": "husky install",
         "lint-staged": "lint-staged"
     },
     "peerDependencies": {
-        "firebase": "^9.5.0",
+        "firebase": "^9.11.0",
         "react": ">=16.8.0"
     },
     "lint-staged": {

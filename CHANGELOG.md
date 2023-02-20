@@ -1,3 +1,60 @@
+# [3.0.0-next.6](https://github.com/andipaetzold/react-firehooks/compare/v3.0.0-next.5...v3.0.0-next.6) (2023-02-11)
+
+
+### Bug Fixes
+
+* properly cleanup `useQueries*` on unmount ([b77becc](https://github.com/andipaetzold/react-firehooks/commit/b77becc381f41c633455f9b7d8d5bc5b0c7db469))
+
+# [3.0.0-next.5](https://github.com/andipaetzold/react-firehooks/compare/v3.0.0-next.4...v3.0.0-next.5) (2023-02-11)
+
+
+### Features
+
+* useQueries & useQueriesData ([#193](https://github.com/andipaetzold/react-firehooks/issues/193)) ([03be7c8](https://github.com/andipaetzold/react-firehooks/commit/03be7c8054d7e1b2ed4716a6af807a35ab267057))
+
+# [3.0.0-next.4](https://github.com/andipaetzold/react-firehooks/compare/v3.0.0-next.3...v3.0.0-next.4) (2023-02-10)
+
+
+### Features
+
+* rename `useCollection*` hooks to `useQuery*` ([#194](https://github.com/andipaetzold/react-firehooks/issues/194)) ([372f055](https://github.com/andipaetzold/react-firehooks/commit/372f055322bf7f273c9736e3bb80969bef2e046f))
+
+
+### BREAKING CHANGES
+
+* `useCollection*` hooks are renamed to `useQuery*`
+
+# [3.0.0-next.3](https://github.com/andipaetzold/react-firehooks/compare/v3.0.0-next.2...v3.0.0-next.3) (2022-11-25)
+
+
+### Bug Fixes
+
+* **firestore:** remove dynamic import from useCountFromServer ([#162](https://github.com/andipaetzold/react-firehooks/issues/162)) ([47a03f6](https://github.com/andipaetzold/react-firehooks/commit/47a03f60baa82768d7fc95b703a14493ca588f3b))
+
+# [3.0.0-next.2](https://github.com/andipaetzold/react-firehooks/compare/v3.0.0-next.1...v3.0.0-next.2) (2022-11-25)
+
+
+### Features
+
+* require firebase 9.11.0 or later ([#148](https://github.com/andipaetzold/react-firehooks/issues/148)) ([7da01b0](https://github.com/andipaetzold/react-firehooks/commit/7da01b003caeaa82fd293549c821fc9c5bc3997e))
+
+
+### BREAKING CHANGES
+
+* require firebase 9.11.0 or later
+
+# [3.0.0-next.1](https://github.com/andipaetzold/react-firehooks/compare/v2.3.0...v3.0.0-next.1) (2022-11-25)
+
+
+### Features
+
+* target es2017 instead of es2015 ([#163](https://github.com/andipaetzold/react-firehooks/issues/163)) ([be187d0](https://github.com/andipaetzold/react-firehooks/commit/be187d03301b156eb032eecb9076b94395bd69e2))
+
+
+### BREAKING CHANGES
+
+* package targets es2017
+
 # [2.3.0](https://github.com/andipaetzold/react-firehooks/compare/v2.2.0...v2.3.0) (2022-10-24)
 
 
